@@ -15,7 +15,7 @@ File: Layout CSS
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
-.row1, .row1 a{}
+.row1 a{ color: black; background-color: #fffff4;}
 .row2{border-bottom:1px solid;}
 .row3, .row3 a{}
 .row4, .row4 a{}
@@ -24,7 +24,7 @@ File: Layout CSS
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
-#topbar{padding:10px 0; font-size:.8rem; text-transform:uppercase;}
+#topbar{padding:10px 0; font-size:1rem; text-transform:uppercase;}
 
 #topbar .pushright li{margin-right:10px; padding-right:15px; border-right:1px solid;}
 #topbar .pushright li:last-child{margin-right:0; padding-right:0; border-right:none;}
@@ -32,12 +32,10 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{padding:50px 0;}
+#header{padding:5px 0; background-color: #fffff4; color: black;}
 
-#header #logo{}
-#header #logo h1{margin:0; padding:0; font-size:32px; text-transform:uppercase;}
-
-#header .fl_right{margin-top:5px;}
+/*#header #logo h1{margin:0; padding:0; font-size:32px; text-transform:uppercase;}*/
+#header .fl_right{margin-top:25px;}
 #header .pushright li{margin-right:20px;}
 #header .pushright li:last-child{margin-right:0;}
 #header .pushright li i{margin-right:5px;}
@@ -45,9 +43,9 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:175px 0 150px;}
+#pageintro{padding:55px 0 50px; }
 
-#pageintro p .btn{margin-top:30px; font-size:1rem;}
+#pageintro p .btn{margin-top:5px; font-size:1rem; color: white;  font-weight: bold;}
 
 
 /* Content Area
@@ -212,17 +210,16 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#FFFFFF; background-color:#2C2C2C;}
-a{color:#8096AA;}
+body{color:#FFFFFF; background-color:#2C2C2C; font: 16px 'Raleway', sans-serif;}
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-.overlay{color:inherit; background-color:rgba(168,180,193,.75);}
+.overlay{color:inherit; background-color:#00A199;}
 .btn{color:#FFFFFF; background-color:#8096AA; border-color:#8096AA;}
 .dk-blue{color:#445666;}
 
 /* Rows */
 .row0, .row0 a{color:#888888; background-color:#FFFFFF;}
-.row1, .row1 a{color:#FFFFFF; background-color:#A8B4C1;}
+.row1{color:white; background-color: #fffff4; border-bottom-color: black; }
 .row2, .row2 a{color:#888888; background-color:#F4F4F4;}
 .row2{border-color:#D7D7D7;}
 .row3{color:#888888; background-color:#FFFFFF;}
