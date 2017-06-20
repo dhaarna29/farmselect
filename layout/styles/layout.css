@@ -58,7 +58,7 @@ body { padding-top: 50px;
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:50px 0;}
+.container{padding:20px 0;}
 
 /* Content */
 .container .content{}
@@ -178,7 +178,7 @@ td{border-width:0 1px;}
 
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
+#gallery{display:block; width:100%; }
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
 
