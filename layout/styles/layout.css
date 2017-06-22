@@ -1,17 +1,10 @@
 @charset "utf-8";
-/*
-Template Name: Craving
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+
 
 @import url("fontawesome-4.3.0.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
-body { padding-top: 50px;
+body {
 		font: 16px 'Raleway', sans-serif;
 	}
 
@@ -20,9 +13,13 @@ body { padding-top: 50px;
 .row0, .row0 a{}
 .row1 a{ color: black; background-color: #fffff4;}
 .row2{border-bottom:1px solid; color:#888888; background-color:#F4F4F4;}
-.row3, .row3 a{background-color: #F4F4F4;}
+.row3, .row3 a{background-color: #F4F4F4; padding-top: 25px;}
 .row4, .row4 a{}
 .row5{border-top:1px solid;}
+#expertise{
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
 
 .navbar{
 	background-color: white;
@@ -58,7 +55,7 @@ body { padding-top: 50px;
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:20px 0;}
+.container{padding:0;}
 
 /* Content */
 .container .content{}
@@ -397,6 +394,32 @@ table a, #comments a{background-color:inherit;}
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
 }
+.profile, .solutions{
+	background-color: #F4F4F4;
+	padding: 20px;
+	margin: 10px auto;
+}
+.solutions2{
+	background-color: #FFF;
+	padding: 20px;
+	margin: 10px auto;
+}
+.solutions img, .solutions2 img{
+	height: 200px;
+	width: 230px;
+}
+.solutions li, .solutions2 li{
+	list-style-type: circle;
+}
+.guarantee .row{
+	padding: 15px;
+}
+.guarantee img{
+	height: 72px;
+	width: 72px;
+	padding: 0;
+	border-radius: 7px;
+}
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   .timeline > li:nth-child(even) {
@@ -556,7 +579,7 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px) {
-	#topbar, #header, #pageintro, #mainav, #breadcrumb, .container, #cta, #footer, #copyright{max-width:978px;}
+	#topbar, #header, #pageintro, #mainav, #breadcrumb, .container, #cta, #footer, #copyright, .profile{max-width:978px;}
 }
 
 
