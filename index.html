@@ -17,8 +17,13 @@ Licence URI: http://www.os-templates.com/template-terms
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    var shiftWindow = function() { scrollBy(0, -65) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+  </script>
 </head>
-<body id="top">
+<body onload="load()">
 <div id="nav-placeholder">
 
 </div>
@@ -169,16 +174,16 @@ $(function(){
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3" id="services">
-  <main class="container clear">
+<div class="wrapper row3" id="services" style="padding-bottom: 50px;">
+  <main class="container clear ">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="center btmspace-80">
+    <div class="center btmspace-30">
       <h2>SERVICES</h2>
     </div>
     <div class="group">
-      <article class="one_third first btmspace-50">
-        <h2 class="uppercase font-x1 btmspace-30" style="color: blue">Marketing & Sales Fulfillment</h2>
+      <article class="one_third first btmspace-20">
+        <h2 class="uppercase font-x1 btmspace-10" style="color: blue">Marketing & Sales Fulfillment</h2>
         <ul>
         <li>Marketing Surveys</li>
         <li>Tele Sales /Lead Generation/ Cross Sell/ Up Sell</li>
@@ -189,8 +194,8 @@ $(function(){
            <li>Social /Digital Media Campaigns</li>
 </ul>
       </article>
-      <article class="one_third btmspace-50">
-        <h2 class="uppercase font-x1 btmspace-30" style="color: blue">Finance & Accounting</h2>
+      <article class="one_third btmspace-20">
+        <h2 class="uppercase font-x1 btmspace-10" style="color: blue">Finance & Accounting</h2>
         <ul>
             <li>Accounting</li>
             <li>Book keeping</li>
@@ -200,12 +205,12 @@ $(function(){
             <li>Employee reimbursement Administration</li>
           </ul>
       </article>
-      <article class="one_third btmspace-50">
-        <h2 class="uppercase font-x1 btmspace-30" style="color: blue">Service Desk</h2>
+      <article class="one_third btmspace-20">
+        <h2 class="uppercase font-x1 btmspace-10" style="color: blue">Service Desk</h2>
         <p>Technical Support Services – L0, L1, L2 Support for Employees</p>
       </article>
-      <article class="one_third first" >
-        <h2 class="uppercase font-x1 btmspace-30" style="color: blue">Customer Support</h2>
+      <article class="one_third first btmspace-20" >
+        <h2 class="uppercase font-x1 btmspace-10" style="color: blue">Customer Support</h2>
         <ul>
           <li>Call Centre – Dedicated team which can provide both inbound and outbound call centre services</li>
           <li>Billing & Invoicing Query Management</li>
@@ -214,8 +219,8 @@ $(function(){
           <li>Warranty & Service Management</li>
         </ul>
       </article>
-      <article class="two_third">
-        <h2 class="uppercase font-x1 btmspace-30" style="color: blue">Shared Services</h2>
+      <article class="two_third btmspace-20">
+        <h2 class="uppercase font-x1 btmspace-0" style="color: blue">Shared Services</h2>
         <ul>
         <li>Secretarial – Tasks which include transcription (audio typing), word-processing, spread-sheets, mail-outs and database management as well as virtual secretarial/PA services</li>
         <li>Data Management – Data Capture & Database Creation, Optical character recognition, Document scanning</li>
@@ -236,9 +241,9 @@ $(function(){
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div style="color: white; ">
-<div class="wrapper row3" style="background-color: #00A199; " id="Infrastructure" >
-<div class="wrapper row1" style="margin: 20px 0;">
+<div style="color: white; " id="Infrastructure">
+<div class="wrapper row3" style="background-color: #00A199; "  >
+<div class="wrapper row1" style="margin: 10px 0;">
   <header id="header" class="clear" >
     <!-- ################################################################################################ -->
     <div id="logo" >
@@ -254,18 +259,18 @@ $(function(){
       <ul class="nospace group latest">
         <li class="one_third first">
           <figure><img src="images/demo/office1.png" alt="">
+          <figcaption>Ready high-quality IT Infrastructure - TYCO Certified Networking</figcaption>
           </figure>
-          <p>Ready high-quality IT Infrastructure - TYCO Certified Networking</p>
         </li>
         <li class="one_third">
           <figure><img src="images/demo/office2.png" alt="">
+          <figcaption>Fully-furnished, centrally air-conditioned office with 100% uninterrupted automated power back-up</figcaption>
           </figure>
-          <p>Fully-furnished, centrally air-conditioned office with 100% uninterrupted automated power back-up</p>
         </li>
         <li class="one_third">
           <figure><img src="images/demo/office3.png" alt="">
+          <figcaption>Training Rooms of 25/40 Seating Capacity with Multimedia Projectors</figcaption>
           </figure>
-          <p>Training Rooms of 25/40 Seating Capacity with Multimedia Projectors</p>
         </li>
       </ul>
 </section>
@@ -276,13 +281,13 @@ $(function(){
       <ul class="nospace group latest">
         <li class="one_third first">
           <figure><img src="images/demo/office4.png" alt="">
+          <figcaption>Multiple Conference rooms & meeting rooms with projectors and video-conferencing equipment's</figcaption>
           </figure>
-          <p>Multiple Conference rooms & meeting rooms with projectors and video-conferencing equipment's</p>
         </li>
         <li class="one_third">
           <figure><img src="images/demo/office5.png" alt="">
+          <figcaption>Connected leased lines from Nextra, Tata, Airtel & Spectranet</figcaption>
           </figure>
-          <p>Connected leased lines from Nextra, Tata, Airtel & Spectranet</p>
         </li>
 
       </ul>

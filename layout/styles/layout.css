@@ -6,6 +6,7 @@
 @import url("framework.css");
 body {
 		font: 16px 'Raleway', sans-serif;
+		padding-top: 100px;
 	}
 
 /* Rows
@@ -60,14 +61,16 @@ body {
 /* Content */
 .container .content{}
 
-.latest{}
-.latest figure{display:inline-block; position:relative; max-width:100%; margin-bottom:30px;}
-.latest figure figcaption{display:block; position:absolute; bottom:0; right:0; width:60px; height:auto; padding:8px 0; border-radius:5px 0 0 0; text-align:center;}
-.latest figure figcaption *{display:block; margin:0; padding:0;}
-.latest figure figcaption strong{margin-bottom:-5px;}
-.latest .heading, .latest p{margin:0; padding:0;}
-.latest .heading{margin-bottom:10px; text-transform:capitalize;}
-.latest p:last-of-type{margin-top:20px;}
+#Infrastructure{}
+#Infrastructure figure img{
+	width: 360px;
+	height: auto;
+}
+#Infrastructure figure{display:inline-block; position:relative; max-width:100%;}
+#Infrastructure figure figcaption{display:block; position:absolute; bottom:0; right:0; width:auto; background-color:black; opacity: 0.7; height:auto; padding:8px 0; border-radius:5px 0 0 0; text-align:center;}
+#Infrastructure figure figcaption *{display:block; margin:0; padding:0;}
+#Infrastructure figure figcaption strong{margin-bottom:-5px;}
+#Infrastructure p:last-of-type{margin-top:20px;}
 
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
@@ -207,7 +210,7 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Content Area */
-.latest figure figcaption{color:#FFFFFF; background-color:rgba(0,0,0,.65);}
+.#Infrastructure figure figcaption{color:#FFFFFF; background-color:rgba(0,0,0,.65);}
 
 
 /* CTA */
@@ -257,14 +260,14 @@ table a, #comments a{background-color:inherit;}
 .timeline>li:nth-child(even) {
     position: relative;
     margin-bottom: 50px;
-    height: 100px;
+    height: 60px;
     right:-100px;
 }
 
 .timeline>li:nth-child(odd) {
     position: relative;
     margin-bottom: 50px;
-    height: 100px;
+    height: 60px;
     left:-100px;
 }
 
@@ -309,8 +312,8 @@ table a, #comments a{background-color:inherit;}
     border-radius: 100%;
     background-color: white;
     box-shadow: 0 0 5px #4582ec;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-left: -80px;
 }
 
@@ -370,9 +373,9 @@ table a, #comments a{background-color:inherit;}
     position: absolute;
     top: 60px;
     bottom: 0;
-    left: 600px;
+    left: 575px;
     width: 4px;
-    height:250px;
+    height:150px;
     background-color: #3b5998;
     -ms-transform: rotate(-44deg);
     -webkit-transform: rotate(-44deg);
@@ -385,15 +388,16 @@ table a, #comments a{background-color:inherit;}
     position: absolute;
     top: 60px;
     bottom: 0;
-    left: 350px;
+    left: 365px;
     width: 4px;
-    height:250px;
+    height:170px;
     background-color: #3b5998;
     -ms-transform: rotate(44deg);
     -webkit-transform: rotate(44deg);
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
 }
+
 .profile, .solutions{
 	background-color: #F4F4F4;
 	padding: 20px;
